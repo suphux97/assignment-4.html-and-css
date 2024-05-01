@@ -1,0 +1,32 @@
+#yu-1{
+    background-color: lightblue;
+    padding: 10px;
+}
+.intro-css {
+    background-color: #f4f4f4;
+    padding: 30px;
+    margin: 20px;
+  }
+
+  .skills-1 {
+    background-color: #eee;
+    padding: 20px;
+    margin: 20px;
+  }
+  
+  
+  
+  .contact {
+    background-color: #666;
+    padding: 30px;
+    color: #fff;
+    text-align: center;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media screen and (max-width: 768px) {
+    .introduction, .skills, .contact {
+      margin: 10px;
+      padding: 20px;
+    }
+  }
